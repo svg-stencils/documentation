@@ -2,7 +2,7 @@
 
 The documentations is located at <https://svg-stencils.github.io/documentation/>.
 
-<center><img src="static/logo-banner.svg" width=40% /></center>
+<center><img src="static/logo.png" /></center>
 
 ## Contribute
 

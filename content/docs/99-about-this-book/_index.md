@@ -1,5 +1,5 @@
 ---
-title: About this book
+title: About this documentation
 weight: 99
 aliases:
     - /about/
@@ -26,7 +26,7 @@ Some examples include text with placeholders. Placeholders indicate where you
 should substitute the appropriate information. For example:
 
 ```
-$ cat ~/Quiqr Data/config.<site_name>.json
+$ cat <stencil name>/stencil-meta.json
 ```
 
 This means you need to substitute the text `<site_name>` with the actual site
@@ -34,5 +34,5 @@ name.
 
 ### Contributing
 
-We welcome contributions to this book. Please read our [Contributing
+We welcome contributions to this documentation. Please read our [Contributing
 Guidelines](https://github.com/svg-stencils/documentation/blob/main/CONTRIBUTING.md).
