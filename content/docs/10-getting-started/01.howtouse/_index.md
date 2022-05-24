@@ -1,5 +1,5 @@
 ---
-title: How To Use
+title: How to use SVG Stencils
 weight: 10
 ---
 
