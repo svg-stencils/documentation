@@ -1,0 +1,56 @@
+<style>
+
+figure {
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin-left: auto;
+  margin-right: auto;
+  display:table;
+  margin: 0.5em;
+  padding: 1.5em;
+  border-radius: 8px;
+  font-style:italic;
+  xbox-shadow:
+    0 1px 1px rgba(0,0,0,0.15),
+    0 2px 2px rgba(0,0,0,0.15),
+    0 2px 2px rgba(0,0,0,0.15),
+    0 2px 4px rgba(0,0,0,0.15);
+}
+
+.tab-button{
+  margin-bottom:1px;
+  position: relative;
+  z-index: 1;
+  color:#333;
+  border-color:#ccc;
+  outline: none;
+  background-color:white;
+}
+.tab-pane code{
+  background:#f1f2f2;
+  border-radius:0;
+}
+.tab-pane .chroma{
+  background:none;
+  padding:0;
+}
+.tab-button.active{
+  border-bottom-color:#f1f2f2;
+  background-color: #d1d2d2;
+}
+.tab-content .tab-pane{
+  display: none;
+}
+.tab-content .tab-pane.active{
+  display: block;
+}
+/* Treatment of copy buttons inside a tab module */
+.tab-content .copy, .tab-content .copied{
+  display: none;
+}
+.tab-content .tab-pane.active + .copy, .tab-content .tab-pane.active + .copied{
+  display: block;
+}
+</style>
